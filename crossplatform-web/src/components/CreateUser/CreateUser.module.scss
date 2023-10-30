@@ -1,0 +1,29 @@
+.container {
+  background-color: aqua;
+  color: black;
+  margin: auto;
+  display: flex;
+  padding: 20px;
+  font-size: 40px;
+  gap: 20px;
+
+  .createButton {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: chartreuse;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+
+    &:hover {
+      background-color: lightgreen; /* Change the background color on hover */
+      
+    }
+  }
+}
